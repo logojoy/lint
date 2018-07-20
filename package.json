@@ -4,6 +4,12 @@
   "description": "",
   "author": "Yazan Medanat <yazan@logojoy.com>",
   "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "lintfix": "lerna run lint:fix",
+    "test": "lerna run test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/logojoy/lint.git"
