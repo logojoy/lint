@@ -1,0 +1,26 @@
+{
+  "name": "@logojoy/lint",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Yazan Medanat <yazan@logojoy.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logojoy/lint.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logojoy/lint/issues"
+  },
+  "homepage": "https://github.com/logojoy/lint#readme",
+  "devDependencies": {
+    "eslint": "5.1.0",
+    "lerna": "3.0.0-beta.21"
+  },
+  "peerDependencies": {
+    "eslint": "^5.1.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  }
+}
