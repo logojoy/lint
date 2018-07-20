@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Yazan Medanat <yazan@logojoy.com>",
+  "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logojoy/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logojoy/lint/issues"
+  }
+}

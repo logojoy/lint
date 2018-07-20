@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-react",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Yazan Medanat <yazan@logojoy.com>",
+  "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config-react#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logojoy/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logojoy/lint/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "9.0.0-beta.3",
+    "eslint-plugin-babel": "5.1.0",
+    "eslint-plugin-react": "7.10.0"
+  }
+}
