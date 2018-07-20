@@ -7,7 +7,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "lerna run lint",
-    "lintfix": "lerna run lint:fix",
+    "lint:fix": "lerna run lint:fix",
     "test": "lerna run test"
   },
   "repository": {

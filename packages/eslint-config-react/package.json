@@ -18,7 +18,7 @@
   },
   "scripts": {
     "lint": "eslint ./",
-    "lint-fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint -- --fix",
     "test": "npm run lint"
   },
   "devDependencies": {
