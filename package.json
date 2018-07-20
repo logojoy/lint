@@ -1,6 +1,6 @@
 {
   "name": "@logojoy/lint",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "",
   "author": "Yazan Medanat <yazan@logojoy.com>",
   "main": "index.js",
@@ -8,6 +8,7 @@
     "bootstrap": "lerna bootstrap",
     "lint": "lerna run lint",
     "lint:fix": "lerna run lint:fix",
+    "publish:canary": "lerna publish --canary",
     "test": "lerna run test"
   },
   "repository": {
