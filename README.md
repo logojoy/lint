@@ -1,8 +1,6 @@
 # @logojoy/lint
 
-
 ## Usage
-
 
 ### For all JS environments
 ```
@@ -13,7 +11,7 @@ In your local `.eslintrc`
 
 ```
 {
-  "extends": ["logojoy"]
+  "extends": ["@logojoy"]
 }
 ```
 
@@ -26,6 +24,6 @@ In your local `.eslintrc`
 
 ```
 {
-  "extends": ["logojoy", "logojoy/react"]
+  "extends": ["@logojoy", "@logojoy/react"]
 }
 ```
