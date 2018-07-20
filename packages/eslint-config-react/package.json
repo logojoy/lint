@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react",
+  "name": "@logojoy/eslint-config-react",
   "version": "0.0.0",
   "description": "",
   "author": "Yazan Medanat <yazan@logojoy.com>",
@@ -15,6 +15,14 @@
   },
   "bugs": {
     "url": "https://github.com/logojoy/lint/issues"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "lint-fix": "npm run lint -- --fix",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "5.1.0"
   },
   "dependencies": {
     "babel-eslint": "9.0.0-beta.3",
