@@ -8,5 +8,10 @@ module.exports = {
     parserOptions: {
       ecmaVersion: 2018
     },
-    rules: {}
+    rules: {
+      'array-bracket-spacing': ['error', 'never'],
+      'object-curly-spacing': ['error', 'always'],
+      semi: ['error', 'always'],
+      'space-before-blocks': ['error', 'always']
+    }
 };
