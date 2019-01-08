@@ -12,6 +12,7 @@ module.exports = {
       'array-bracket-spacing': ['error', 'never'],
       'eol-last': ['error', 'always'],
       'keyword-spacing': ['error'],
+      'no-tabs': ['error'],
       'object-curly-spacing': ['error', 'always'],
       'prefer-const': ['error'],
       semi: ['error', 'always'],

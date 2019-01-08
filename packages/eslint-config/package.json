@@ -20,5 +20,8 @@
     "lint": "eslint ./",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run lint"
+  },
+  "peerDependencies": {
+    "eslint": "^5.12.0"
   }
 }
