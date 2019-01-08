@@ -17,7 +17,7 @@ In your local `.eslintrc`
 
 ### For React environments
 ```
-npm i --save-dev eslint @logojoy/eslint-config @logojoy/eslint-config-react
+npm i --save-dev eslint babel-eslint @logojoy/eslint-config @logojoy/eslint-config-react
 ```
 
 In your local `.eslintrc`
