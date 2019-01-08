@@ -17,5 +17,10 @@ module.exports = {
             jsx: true
         }
     },
+    settings: {
+        react: {
+            version: '16.4'
+        }
+    },
     rules: {}
 };
