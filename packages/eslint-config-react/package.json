@@ -1,6 +1,6 @@
 {
   "name": "@logojoy/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "author": "Yazan Medanat <yazan@logojoy.com>",
   "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config-react#readme",
