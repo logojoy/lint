@@ -11,7 +11,10 @@
     "outdated": "npm outdated && npx lerna exec --no-bail -- npm outdated",
     "publish": "npx lerna publish -- --access public",
     "publish:canary": "lerna publish --canary",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "version:patch": "npx lerna version patch",
+    "version:minor": "npx lerna version minor",
+    "version:major": "npx lerna version major"
   },
   "repository": {
     "type": "git",
@@ -23,11 +26,11 @@
   },
   "homepage": "https://github.com/logojoy/lint#readme",
   "devDependencies": {
-    "eslint": "5.12.0",
-    "lerna": "3.9.0"
+    "eslint": "5.12.1",
+    "lerna": "3.10.1"
   },
   "peerDependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.12.1"
   },
   "engines": {
     "node": ">= 6"

@@ -22,5 +22,21 @@ module.exports = {
             version: '16.4'
         }
     },
-    rules: {}
+    rules: {
+        'react/forbid-prop-types': ['error', {
+            forbid: ['any'],
+            checkContextTypes: true,
+            checkChildContextTypes: true
+        }],
+        'react/jsx-curly-brace-presence': ['error', 'never'],
+        'react/jsx-indent': ['error', 4, {
+            checkAttributes: true
+        }],
+        'react/jsx-indent-props': ['error', 4],
+        'react/jsx-no-duplicate-props': ['error'],
+        'react/self-closing-comp': ['error', {
+            component: true,
+            html: true
+        }],
+    }
 };

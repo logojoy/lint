@@ -1,6 +1,6 @@
 {
   "name": "@logojoy/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "author": "Yazan Medanat <yazan@logojoy.com>",
   "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config#readme",
@@ -22,6 +22,6 @@
     "test": "npm run lint"
   },
   "peerDependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.12.1"
   }
 }
