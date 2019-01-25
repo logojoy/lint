@@ -8,7 +8,6 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2018
     },
-    plugins: ['mocha-no-only'],
     rules: {
         'array-bracket-spacing': ['error', 'never'],
         'eol-last': ['error', 'always'],
@@ -16,7 +15,6 @@ module.exports = {
         indent: ['error', 4],
         'jsx-quotes': ['error', 'prefer-single'],
         'keyword-spacing': ['error'],
-        'mocha-no-only/mocha-no-only': ['error'],
         'no-tabs': ['error'],
         'no-trailing-spaces': ['error'],
         'object-curly-spacing': ['error', 'always'],
