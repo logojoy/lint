@@ -1,0 +1,33 @@
+{
+  "name": "@logojoy/eslint-config-mocha",
+  "version": "0.0.6",
+  "description": "",
+  "author": "Cam Sloan <cam@logojoy.com>",
+  "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config-mocha#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logojoy/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logojoy/lint/issues"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-plugin-mocha": "5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "5.12.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.12.1"
+  }
+}

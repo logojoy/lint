@@ -1,0 +1,1 @@
+# @logojoy/eslint-config-mocha

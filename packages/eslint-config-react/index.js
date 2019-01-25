@@ -6,8 +6,7 @@ module.exports = {
     ],
     env: {
         browser: true,
-        node: true,
-        mocha: true
+        node: true
     },
     extends: ['plugin:react/recommended'],
     parserOptions: {
