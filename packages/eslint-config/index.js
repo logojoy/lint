@@ -14,6 +14,7 @@ module.exports = {
         indent: ['error', 4],
         'jsx-quotes': ['error', 'prefer-single'],
         'keyword-spacing': ['error'],
+        'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0, maxBOF: 0 }],
         'no-tabs': ['error'],
         'no-trailing-spaces': ['error'],
         'object-curly-spacing': ['error', 'always'],
