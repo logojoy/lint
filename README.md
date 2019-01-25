@@ -28,6 +28,19 @@ In your local `.eslintrc`
 }
 ```
 
+### For mocha environments
+```
+npm i --save-dev eslint @logojoy/eslint-config @logojoy/eslint-config-mocha
+```
+
+In your local `.eslintrc`
+
+```
+{
+  "extends": ["@logojoy", "@logojoy/mocha"]
+}
+```
+
 ## Developing
 - When adding a new package to the `packages` folder, you will need to add `eslint` as a devDependency in order to run the tests successfully.
 
