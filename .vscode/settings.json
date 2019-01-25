@@ -7,10 +7,6 @@
     "editor.formatOnSave": false,
     "eslint.enable": true,
     "eslint.autoFixOnSave": true,
-    "files.associations": {
-      "*mutation.js": "graphql",
-      "*query.js": "graphql"
-    },
     "files.trimTrailingWhitespace": true,
     "files.encoding": "utf8",
     "files.eol": "\n",
