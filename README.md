@@ -49,7 +49,7 @@ In your local `.eslintrc`
 ```json
 "publishConfig": {
     "access": "public"
-  }
+}
 ```
 
 ## Publishing to npm
