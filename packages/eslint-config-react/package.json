@@ -32,5 +32,8 @@
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.12.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
