@@ -1,6 +1,6 @@
 {
   "name": "@logojoy/eslint-config-mocha",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "author": "Cam Sloan <cam@logojoy.com>",
   "homepage": "https://github.com/logojoy/lint/tree/master/packages/eslint-config-mocha#readme",
