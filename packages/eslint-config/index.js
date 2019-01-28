@@ -12,7 +12,7 @@ module.exports = {
         'eol-last': ['error', 'always'],
         eqeqeq: ['error'],
         indent: ['error', 4],
-        'jsx-quotes': ['error', 'prefer-single'],
+        'jsx-quotes': ['error', 'prefer-double'],
         'keyword-spacing': ['error'],
         'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0, maxBOF: 0 }],
         'no-tabs': ['error'],
