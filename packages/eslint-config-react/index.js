@@ -1,7 +1,8 @@
 module.exports = {
     parser: 'babel-eslint',
     plugins: [
-        'react'
+        'react',
+        'react-hooks'
     ],
     env: {
         browser: true,
@@ -17,7 +18,7 @@ module.exports = {
     },
     settings: {
         react: {
-            version: '16.4'
+            version: '16.8'
         }
     },
     rules: {
@@ -36,5 +37,7 @@ module.exports = {
             component: true,
             html: true
         }],
+
+        'react-hooks/rules-of-hooks': 'error'
     }
 };
