@@ -22,6 +22,7 @@ module.exports = {
         'no-tabs': ['error'],
         'no-trailing-spaces': ['error'],
         'object-curly-spacing': ['error', 'always'],
+        'padded-blocks': ['error', 'never', { allowSingleLineBlocks: false }],
         'prefer-const': ['error'],
         'prefer-template': ['error'],
         semi: ['error', 'always'],
