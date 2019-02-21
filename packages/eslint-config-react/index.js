@@ -38,6 +38,6 @@ module.exports = {
             html: true
         }],
 
-        'react-hooks/rules-of-hooks': 'error'
+        'react-hooks/rules-of-hooks': ['error']
     }
 };
