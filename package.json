@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/logojoy/lint#readme",
   "devDependencies": {
-    "eslint": "5.12.1",
-    "lerna": "3.10.1"
+    "eslint": "5.14.1",
+    "lerna": "3.13.0"
   },
   "peerDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.14.1"
   },
   "engines": {
     "node": ">= 6"

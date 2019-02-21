@@ -22,7 +22,7 @@
     "test": "npm run lint"
   },
   "peerDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.14.1"
   },
   "publishConfig": {
     "access": "public"
